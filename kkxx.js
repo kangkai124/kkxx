@@ -11,9 +11,6 @@ new Vue({
     iWant,
     innerHeight: window.innerHeight || document.documentElement.clientHeight
   },
-  mounted () {
-    this.togglePlay()
-  },
   methods: {
     indexScroll () {
       const height = window.innerHeight || document.documentElement.clientHeight
