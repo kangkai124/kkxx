@@ -1,0 +1,24 @@
+{
+  "name": "timeline520",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "clean": "rimraf docs",
+    "build": "rimraf docs && parcel build index.html -d docs --public-url . && node scripts/create.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cowsay": "^1.4.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^5.16.0",
+    "fs-extra": "^8.1.0",
+    "less": "^3.11.1",
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^2.7.1"
+  }
+}
